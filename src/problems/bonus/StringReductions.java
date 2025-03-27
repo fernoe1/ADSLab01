@@ -3,6 +3,9 @@ package problems.bonus;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * <a href="https://www.hackerrank.com/challenges/string-reductions/problem?isFullScreen=true"> String Reductions </a>
+ */
 public class StringReductions {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Scanner to read user input

@@ -2,6 +2,9 @@ package problems.bonus;
 
 import java.util.Scanner;
 
+/**
+ * <a href="https://www.hackerrank.com/challenges/string-compression/problem?isFullScreen=true">String Compression</a>
+ */
 public class StringCompression {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Scanner to read user input

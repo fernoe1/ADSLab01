@@ -2,6 +2,9 @@ package problems.bonus;
 
 import java.util.Scanner;
 
+/**
+ * <a href="https://www.hackerrank.com/challenges/string-mingling/problem?isFullScreen=true">String Mingling</a>
+ */
 public class StringMingling {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Scanner to read user input
