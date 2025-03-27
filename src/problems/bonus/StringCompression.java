@@ -14,7 +14,7 @@ public class StringCompression {
     }
 
     /**
-     * This function initializes main function with right parameters. <br>
+     * Compresses string, if concisely aaaa becomes a3. <br>
      * Runs in O(n) complexity.
      * @param s String to compress.
      * @return Compressed string.
@@ -24,8 +24,7 @@ public class StringCompression {
     }
 
     /**
-     * Compresses string, if concisely aaaa becomes a3. <br>
-     * Runs in O(n) complexity.
+     * Helper function.
      * @param s String to compress.
      * @param currentChar Current character.
      * @param index Current index.
