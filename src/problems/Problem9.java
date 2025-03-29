@@ -3,9 +3,10 @@ package problems;
 import java.util.Scanner;
 
 public class Problem9 {
-    public static void main(String[] args) {
+    public static void start() {
         Scanner sc = new Scanner(System.in); // Initializing Scanner to read user input
         // Base parameters
+        System.out.println("Enter the binomial coefficients n and k");
         int n = sc.nextInt();
         int k = sc.nextInt();
 

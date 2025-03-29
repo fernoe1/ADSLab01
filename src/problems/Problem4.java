@@ -3,8 +3,9 @@ package problems;
 import java.util.Scanner;
 
 public class Problem4 {
-    public static void main(String[] args) {
+    public static void start() {
         Scanner sc = new Scanner(System.in); // Initializing scanner to read user input
+        System.out.println("Enter the number to find the factorial of");
         int n = sc.nextInt(); // Base parameter n
 
         double startTime = System.nanoTime();

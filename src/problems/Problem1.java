@@ -3,11 +3,13 @@ package problems;
 import java.util.Scanner;
 
 public class Problem1 {
-    public static void main(String[] args) {
+    public static void start() {
         Scanner sc = new Scanner(System.in); // Initializing scanner to read input
         // Base parameter n and array
+        System.out.println("Enter the size of the array");
         int n = sc.nextInt();
         int[] arr = new int[n];
+        System.out.println("Enter " + n + " elements for the array");
         /* Filling the array.
            The speed is actually based on the users input,
            but if the input was instantly given, it runs in O(n) complexity. */

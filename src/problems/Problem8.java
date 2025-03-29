@@ -3,8 +3,9 @@ package problems;
 import java.util.Scanner;
 
 public class Problem8 {
-    public static void main(String[] args) {
+    public static void start() {
         Scanner sc = new Scanner(System.in); // Initializing Scanner to read user input
+        System.out.println("Enter the string you want to check if it only consists of numbers or not");
         String s = sc.next(); // Base parameter s
 
         double startTime = System.nanoTime();

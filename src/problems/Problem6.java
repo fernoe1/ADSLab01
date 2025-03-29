@@ -3,9 +3,10 @@ package problems;
 import java.util.Scanner;
 
 public class Problem6 {
-    public static void main(String[] args) {
+    public static void start() {
         Scanner sc = new Scanner(System.in); // Initializing Scanner to read user input
         // Base parameters
+        System.out.println("Enter the base then the power");
         int a = sc.nextInt();
         int n = sc.nextInt();
 

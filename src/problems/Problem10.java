@@ -3,9 +3,10 @@ package problems;
 import java.util.Scanner;
 
 public class Problem10 {
-    public static void main(String[] args) {
+    public static void start() {
         Scanner sc = new Scanner(System.in); // Initializing Scanner to read user input
         // Base parameters
+        System.out.println("Enter the two numbers you wish to find the GCD of");
         int a = sc.nextInt();
         int b = sc.nextInt();
 

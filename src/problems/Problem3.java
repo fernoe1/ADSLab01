@@ -3,8 +3,9 @@ package problems;
 import java.util.Scanner;
 
 public class Problem3 {
-    public static void main(String[] args) {
+    public static void start() {
         Scanner sc = new Scanner(System.in); // Initializing scanner to read user input
+        System.out.println("Enter the number to check if it is prime or composite");
         int n = sc.nextInt(); // Base parameter n
 
         double startTime = System.nanoTime();
